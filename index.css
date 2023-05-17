@@ -1,9 +1,35 @@
 .hello{
     background-color: rgb(221, 203, 13);
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    color: blue;
+    width: 60%;
+    margin-left: 260px;
 }
 body{
-    background-color: rgb(250, 240, 240);
+    background-color: rgb(247, 247, 248);
 }
 ol{
-    color: rgb(12, 12, 12);
+    color: rgb(65, 12, 239);
+}
+.inner{
+    color: rgb(241, 99, 144);
+text-decoration: underline;
+}
+.main{
+    width: 50%;
+    background-color: rgb(207, 242, 242);
+    margin-left: 330px;
+}
+img{
+    position: relative;
+    bottom: 1000px;
+    height: 300px;
+    width: 20%;
+}
+.main :hover{
+    background-color: rgb(236, 224, 224);
+    cursor: pointer;
 }
