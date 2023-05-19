@@ -19,6 +19,7 @@ var arrayData = Object.entries(p2).map(([key, value]) => ({ [key]: value }));
   
       var div = document.createElement("div");
       div.style.textAlign="center"
+      div.setAttribute("class","hell")
       div.innerHTML = `<h2 class="inner">${title}</h2>`; 
       var div2 = document.createElement("div");
 div2.setAttribute("class","main")
